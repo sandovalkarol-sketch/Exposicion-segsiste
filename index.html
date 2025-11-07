@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Exposición BSC y KPIs</title>
+  <style>
+    :root {
+      --azul-claro: #e6f0ff;
+      --azul-medio: #6699cc;
+      --azul-oscuro: #003366;
+      --gris-claro: #f5f5f5;
+      --gris-medio: #cccccc;
+      --gris-oscuro: #666666;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: var(--gris-claro);
+      color: var(--azul-oscuro);
+    }
+
+    header {
+      background-color: var(--azul-oscuro);
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    nav {
+      background-color: var(--azul-medio);
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0.5rem 1rem;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--gris-claro);
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: var(--azul-claro);
+      border-left: 5px solid var(--azul-medio);
+      padding: 1rem;
+      margin-bottom: 2rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    footer {
+      background-color: var(--azul-oscuro);
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Balanced Scorecard y KPIs</h1>
+    <p>Seguridad de la Información Contable</p>
+  </header>
+
+  <nav>
+    <a href="#introduccion">Introducción</a>
+    <a href="#estructura">Estructura BSC</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+
+  <section id="introduccion">
+    <div class="card">
+      <h2>Introducción</h2>
+      <p>Exploramos cómo el Balanced Scorecard transforma la contabilidad tradicional en una herramienta estratégica que protege los activos de información contable.</p>
+    </div>
+  </section>
+
+  <section id="estructura">
+    <div class="card">
+      <h2>Estructura del BSC</h2>
+      <p>El modelo se compone de cuatro perspectivas: Aprendizaje, Procesos Internos, Cliente y Financiera, todas conectadas por la lógica de causalidad y alineadas a los pilares C-I-D.</p>
+    </div>
+  </section>
+
+  <section id="beneficios">
+    <div class="card">
+      <h2>Beneficios Clave</h2>
+      <ul>
+        <li>Traducción de estrategia en acción concreta</li>
+        <li>Mejora de la comunicación organizacional</li>
+        <li>Creación de valor a largo plazo</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contacto">
+    <div class="card">
+      <h2>Contacto</h2>
+      <p>Para más información, escribe a: <strong>karol.expo@universidad.edu.co</strong></p>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 KAROL | Exposición Académica | Contaduría Pública
+  </footer>
+
+</body>
+</html>
